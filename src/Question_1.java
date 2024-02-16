@@ -9,5 +9,12 @@ public class Question_1 {
         BaseEmployee M_Davenport = new BaseEmployee("Mike","Davenport","666-66-6666","$95,000");
         CommissionEmployee M_Vaziri = new CommissionEmployee("Mahnaz","Vaziri","777-77-7777","22%","$40,000");
 
+        J_Jones.Print();
+        S_Smith.Print();
+        M_Quinn.Print();
+        N_Dior.Print();
+        R_Chanel.Print();
+        M_Davenport.Print();
+        M_Vaziri.Print();
     }
 }

@@ -22,4 +22,8 @@ public class CommissionEmployee extends Employee{
     public String getGrossSales() {
         return GrossSales;
     }
+
+    public void Print(){
+        System.out.println("First Name: " + this.getFirstName() + " Last Name: " + this.getLastName() + " SSN: " + this.getSSNumber() + " Commission Rate: " + CommissionRate + " Gross Sales: " + GrossSales);
+    }
 }

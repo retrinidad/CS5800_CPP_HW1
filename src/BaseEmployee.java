@@ -12,4 +12,8 @@ public class BaseEmployee extends Employee{
     public String getBaseSalary() {
         return BaseSalary;
     }
+
+    public void Print(){
+        System.out.println("First Name: " + this.getFirstName() + " Last Name: " + this.getLastName() + " SSN: " + this.getSSNumber() + " Base Salary: " + BaseSalary);
+    }
 }

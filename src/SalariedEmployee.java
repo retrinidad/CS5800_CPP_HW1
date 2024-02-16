@@ -12,4 +12,8 @@ public class SalariedEmployee extends Employee{
     public String getWeeklySalary() {
         return WeeklySalary;
     }
+
+    public void Print(){
+        System.out.println("First Name: " + this.getFirstName() + " Last Name: " + this.getLastName() + " SSN: " + this.getSSNumber() + " Weekly Salary: " + WeeklySalary);
+    }
 }

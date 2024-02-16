@@ -22,4 +22,8 @@ public class HourlyEmployee extends Employee{
     public String getNumberHoursWorked() {
         return NumberHoursWorked;
     }
+
+    public void Print(){
+        System.out.println("First Name: " + this.getFirstName() + " Last Name: " + this.getLastName() + " SSN: " + this.getSSNumber() + " Wage: " + Wage + " Number of Hours Worked: " + NumberHoursWorked);
+    }
 }
